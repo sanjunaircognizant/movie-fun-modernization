@@ -3,6 +3,7 @@ spring:
     prefix: /WEB-INF/
     suffix: .jsp
 
+
 logging.level:
   root: WARN
   org.superbiz.moviefun: DEBUG
@@ -13,6 +14,6 @@ s3:
   bucketName: <name of the bucket>
 
 albums:
-  url: http://localhost:8081/albums
+  url: http://album-service-sanjunaircognizant.cfapps.io/albums
 movies:
-  url: http://localhost:8082/movies
+  url: http://movie-service-sanjunaircognizant.cfapps.io/movies
